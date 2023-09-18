@@ -1,0 +1,24 @@
+#language{
+color: brown;
+}
+#language{
+color: black;
+}
+#e-slavic{
+font-size: italic;
+}
+#e-slavic ~ li{
+color: red;
+}
+#latvian{
+font-size: italic;
+}
+#latvian *{
+font-size: normal;
+}
+#latvian + li{
+color: green;
+}
+code{
+border: 1px solid black;
+}
